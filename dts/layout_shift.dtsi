@@ -14,7 +14,6 @@
         kpls: layout_shift_key_press {
             compatible = "zmk,behavior-layout-shift-key-press";
             #binding-cells = <1>;
-            label = "LAYOUT_SHIFT_KEY_PRESS";
             display-name = "Key Press with Layout Shift";
         };
 
@@ -33,7 +32,6 @@
             compatible = "zmk,behavior-layout-shift-toggle";
             #binding-cells = <0>;
             toggle-mode = "flip";
-            label = "LAYOUT_SHIFT_TOGGLE";
             display-name = "Toggle Layout Shift";
         };
 
@@ -41,7 +39,6 @@
             compatible = "zmk,behavior-layout-shift-toggle";
             #binding-cells = <0>;
             toggle-mode = "on";
-            label = "LAYOUT_SHIFT_TOGGLE_ON";
             display-name = "Toggle Layout Shift On";
         };
 
@@ -49,7 +46,6 @@
             compatible = "zmk,behavior-layout-shift-toggle";
             #binding-cells = <0>;
             toggle-mode = "off";
-            label = "LAYOUT_SHIFT_TOGGLE_OFF";
             display-name = "Toggle Layout Shift Off";
         };
     };
